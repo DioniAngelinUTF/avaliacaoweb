@@ -1,5 +1,5 @@
-import Aside from "../components/aside"
-import Nav from "./components/nav"
+import Aside from "/workspaces/avaliacaoweb/app/components/aside" 
+import Nav from "/workspaces/avaliacaoweb/app/components/nav"
 
 export default function AdminLayout({
     children,
