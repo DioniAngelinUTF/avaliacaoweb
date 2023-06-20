@@ -16,7 +16,7 @@ export default async function ProfessorPage(){
             <tbody>
                 {Professores.map(professor => (  
 
-                <tr key={professor.id}> <td>{professor.name}</td> <td>{professor.email}</td> <td><a href="/admin/professor/edit">Editar</a></td> </tr>
+                <tr key={professor.id}> <td>{professor.name}</td> <td>{professor.email}</td> <td><a href="/admin/teacher/edit">Editar</a></td> </tr>
 
                 ))}
             </tbody>
